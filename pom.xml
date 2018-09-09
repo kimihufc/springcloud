@@ -13,6 +13,7 @@
         <module>eruke</module>
         <module>produce</module>
         <module>consume</module>
+        <module>comsume-ribbon</module>
     </modules>
 
     <name>spcloud</name>
