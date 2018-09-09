@@ -11,6 +11,7 @@ public class RibbonHelloController {
     private RestTemplate restTemplate;
 
     public String hello(){
+        String template = restTemplate.getForObject("http://produce/hello", String.class);
         return "hello";
     }
 
